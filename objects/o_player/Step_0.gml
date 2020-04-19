@@ -69,7 +69,8 @@ switch state {
 	case player_state.carry: {		
 		if key_action and action_cooldown == 0 and held_obj != noone {
 			// throw the item
-			
+			held_obj.player_toss_speed = input_acceleration * 3.5;
+			held_obj.toss_dir = input_dir;
 			held_obj.is_held = false;
 			held_obj = noone;
 			
