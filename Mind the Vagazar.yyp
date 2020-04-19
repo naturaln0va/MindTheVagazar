@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0179c956-d362-48df-ac11-a03cd648a116",
+            "Value": {
+                "id": "1ed2bb03-3fa0-4500-aeb7-0daf68d0167a",
+                "resourcePath": "scripts\/spawn_obj\/spawn_obj.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1692b975-3399-4f6b-90ca-15f9ae72fb62",
             "Value": {
                 "id": "879b546c-b006-4c34-a612-1caec6fc3c02",
@@ -279,6 +287,14 @@
             }
         },
         {
+            "Key": "b1f716b5-04f1-42b2-bfa5-bef9121064e0",
+            "Value": {
+                "id": "eec54051-95b8-4f7d-9135-71e40a9b7f1b",
+                "resourcePath": "objects\/o_cow_spawner\/o_cow_spawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b58efdb2-cb33-47ba-96f0-5a991588ed2b",
             "Value": {
                 "id": "19954e83-7573-4f8e-8244-754a0429909c",
@@ -402,7 +418,8 @@
     "script_order": [
         "d95991dc-bb47-4a83-9261-426b53a89fb0",
         "e5defc9a-7c0f-400b-b1c8-e1956fea0f34",
-        "3d3d4ed5-37f2-4a2a-9c30-ff50cfcbe127"
+        "3d3d4ed5-37f2-4a2a-9c30-ff50cfcbe127",
+        "0179c956-d362-48df-ac11-a03cd648a116"
     ],
     "tutorial": ""
 }
