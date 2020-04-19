@@ -1,7 +1,5 @@
-/// @desc Setup
+/// @description Inherit the parent event
 
-max_cows = 20;
-cow_spawn_radius = 25;
+event_inherited();
 
-cooldown = 0;
-cow_spawn_rate = room_speed * 2;
+obj_to_spawn = o_cow;

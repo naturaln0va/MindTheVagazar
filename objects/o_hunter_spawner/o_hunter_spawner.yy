@@ -1,18 +1,18 @@
 {
-    "id": "b1f716b5-04f1-42b2-bfa5-bef9121064e0",
+    "id": "cf7d2a91-3977-48af-ab50-4378f73417db",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_cow_spawner",
+    "name": "o_hunter_spawner",
     "eventList": [
         {
-            "id": "00b0d70b-fe01-4b75-bc57-ff7727c4956e",
+            "id": "299fcdd3-95be-4ce5-ba4e-a017abb90209",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "b1f716b5-04f1-42b2-bfa5-bef9121064e0"
+            "m_owner": "cf7d2a91-3977-48af-ab50-4378f73417db"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
