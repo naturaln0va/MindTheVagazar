@@ -9,6 +9,7 @@ var distance = distance_to_object(beast);
 
 if distance <= eat_distance {
 	beast.hunger += saturation;
+	beast.image_speed = 0.5;
 	
 	instance_destroy();
 }

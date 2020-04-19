@@ -1,5 +1,7 @@
 /// @desc Setup
 
+image_speed = 0;
+
 desaturation_rate = 1 / (room_speed * 2.125);
 
 hunger = 100;
