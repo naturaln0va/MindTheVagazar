@@ -2,7 +2,7 @@
 
 is_held = false;
 
-saturation = 5;
+saturation = 15;
 
 eat_distance = 0.5;
 suck_distance = 20;
