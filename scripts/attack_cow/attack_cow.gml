@@ -11,6 +11,7 @@ if not instance_exists(cow) {
 with cow {
 	
 	// hurt cow
+	hurt = true;
 	hp--;
 	
 	// squish the cow

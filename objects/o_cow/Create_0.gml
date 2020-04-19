@@ -9,6 +9,8 @@ y_dir = 0;
 hp = 2;
 max_hp = hp;
 
+hurt = false;
+
 wait_decision_time_min = room_speed * 1;
 wait_decision_time_max = room_speed * 3;
 
