@@ -1,6 +1,6 @@
 /// @desc Setup
 
-desaturation_rate = 1 / (room_speed * 1.75);
+desaturation_rate = 1 / (room_speed * 2.125);
 
 hunger = 100;
 max_hunger = hunger;
