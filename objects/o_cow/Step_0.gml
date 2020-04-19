@@ -1,6 +1,6 @@
 /// @desc Move if needed
 
-image_speed = move_speed > 0 ? 1 : 0;
+image_speed = move_speed > 0 ? 0.5 : 0;
 
 if hurt {
 	move_speed = 0;
