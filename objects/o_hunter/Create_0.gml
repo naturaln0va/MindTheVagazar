@@ -14,7 +14,7 @@ attack_delay = room_speed * 2.5;
 x_dir = 0;
 y_dir = 0;
 
-attack_range = 16;
+attack_range = 40;
 attacking = false;
 
 wait_decision_time_min = room_speed * 0.5;

@@ -26,7 +26,8 @@ else {
 				cooldown--;
 			}
 			else {
-				beast_obj.hunger -= irandom_range(2, 6);
+				instance_create_layer(x, y, "Instances", o_spear);
+				
 				cooldown = attack_delay;
 			}
 		}
