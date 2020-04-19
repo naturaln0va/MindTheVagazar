@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "9cb2d63d-a5d5-454a-b46a-3bffdf098df6",
+            "Value": {
+                "id": "9be018a7-f05e-43a5-a980-8da053ae9613",
+                "resourcePath": "sprites\/s_player_back\/s_player_back.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a10d2ca0-958b-4b40-99ec-562aba975f25",
             "Value": {
                 "id": "55cff2af-e6c5-4f81-aaa2-687898989f69",
@@ -370,7 +378,7 @@
             "Key": "c56f06ea-a7d1-4a90-b45c-2c06f2c4ba3f",
             "Value": {
                 "id": "0f5cf030-6ea9-4168-8fcd-5b4b84db8d5b",
-                "resourcePath": "sprites\/s_player\/s_player.yy",
+                "resourcePath": "sprites\/s_player_front\/s_player_front.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -428,6 +436,14 @@
                 "id": "3cdcc17c-247b-4cc6-a0dd-93bde9fd7f0e",
                 "resourcePath": "scripts\/attack_cow\/attack_cow.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e68a8354-a560-4f4c-ad20-c79c52ae02c6",
+            "Value": {
+                "id": "9ce20f48-157e-4971-a028-ba1d798146bc",
+                "resourcePath": "sprites\/s_player_side\/s_player_side.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

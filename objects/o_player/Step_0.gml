@@ -120,6 +120,19 @@ if should_move {
 	x += h_speed;
 	y += v_speed;
 	image_speed = image_speed_base + (input_acceleration * image_speed_mag);
+	
+	if input_acceleration > 0 {
+		// update sprite
+		
+		if abs(h_speed) > abs(v_speed) {
+			sprite_index = s_player_side;
+			image_xscale = sign(h_speed);
+		}
+		else {
+			sprite_index = sign(v_speed) == 1 ? s_player_front : s_player_back;
+			image_xscale = 1;
+		}
+	}
 }
 
 crosshairs.x = x + lengthdir_x(crosshairs_distance, input_dir);

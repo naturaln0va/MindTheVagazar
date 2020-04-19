@@ -15,7 +15,7 @@ reach_len = 2;
 crosshairs_distance = reach_len + 12;
 
 input_acceleration = 0;
-input_dir = 0;
+input_dir = 270;
 
 h_speed = 0;
 v_speed = 0;
