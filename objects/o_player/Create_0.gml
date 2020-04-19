@@ -9,7 +9,7 @@ crosshairs.depth = depth + 1;
 crosshairs_animation_speed = 1.25;
 
 action_cooldown = 0;
-total_action_cooldown = room_speed * 0.5;
+total_action_cooldown = room_speed * 0.25;
 
 reach_len = 2;
 crosshairs_distance = reach_len + 12;

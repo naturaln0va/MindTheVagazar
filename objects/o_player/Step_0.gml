@@ -20,8 +20,7 @@ switch state {
 		// action button will check if enemy
 		// or if an item is in range
 		
-		if key_action and action_cooldown == 0 {
-
+		if key_action {
 			hit_obj = player_swing(crosshairs);
 			
 			if hit_obj != noone {
@@ -33,15 +32,18 @@ switch state {
 	} break;
 	
 	case player_state.action: {
-		action_cooldown = total_action_cooldown;
-		
 		var obj_index = hit_obj.object_index;
 		var should_swing = false;
 		
 		if obj_index == o_cow {
+			state = player_state.move;
+			
+			if action_cooldown > 0 {
+				return;
+			}
+			
 			attack_cow(hit_obj);
 			hit_obj = noone;
-			state = player_state.move;
 			
 			should_swing = true;
 		}
@@ -53,13 +55,19 @@ switch state {
 			instance_deactivate_object(crosshairs);
 		}
 		else if obj_index == o_hunter {
+			state = player_state.move;
+			
+			if action_cooldown > 0 {
+				return;
+			}
+			
 			hit_obj.afraid = true;
 			hit_obj.move_speed = 0;
 			
-			state = player_state.move;
-			
 			should_swing = true;
 		}
+		
+		action_cooldown = total_action_cooldown;
 		
 		if should_swing {
 			crosshairs.image_speed = crosshairs_animation_speed;
