@@ -133,5 +133,5 @@ var player_y = y;
 with held_obj {
 	
 	x = player_x;
-	y = player_y + 9;
+	y = player_y + 12;
 }
