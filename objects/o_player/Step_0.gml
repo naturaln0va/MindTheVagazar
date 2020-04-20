@@ -53,6 +53,7 @@ switch state {
 			
 			audio_play_sound(a_pickup, 1, false);
 			
+			hit_obj = noone;
 			state = player_state.carry;
 			instance_deactivate_object(crosshairs);
 		}
@@ -63,8 +64,11 @@ switch state {
 				return;
 			}
 			
+			audio_play_sound(a_hit, 3, false);
+			
 			hit_obj.afraid = true;
 			hit_obj.move_speed = 0;
+			hit_obj = noone;
 			
 			should_swing = true;
 		}
