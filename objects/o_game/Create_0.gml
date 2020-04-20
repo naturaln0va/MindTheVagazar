@@ -2,6 +2,8 @@
 
 randomize();
 
+audio_play_sound(a_music, 2, true);
+
 global.SCREEN_WIDTH = 320;
 global.SCREEN_HEIGHT = 180;
 
