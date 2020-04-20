@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "312a29bf-38b8-412b-ab78-94aa73cd5fcf",
+            "Value": {
+                "id": "17d6b41c-e848-4998-9ef0-cb516bf94f16",
+                "resourcePath": "sprites\/s_weed\/s_weed.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "34306edc-a6bc-4590-99f3-0fe53f53109e",
             "Value": {
                 "id": "500abb6e-7327-4b90-8d0d-f4d6a5c1c955",
@@ -116,14 +124,6 @@
                 "id": "6a510aaa-73ba-41f0-b4ec-f7ee710523a6",
                 "resourcePath": "views\/3852eaba-f37e-4d1a-be8a-96fa5a387bca.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "38e3efef-27fd-42ae-8174-e0e025c934b7",
-            "Value": {
-                "id": "df2227eb-bfca-4ca4-a48a-46ef26b43f38",
-                "resourcePath": "tilesets\/t_grass\/t_grass.yy",
-                "resourceType": "GMTileSet"
             }
         },
         {
@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "8fbd30e5-2c4e-4c9a-8642-c25d41d45c47",
+            "Value": {
+                "id": "fb072aab-a9ab-4a3c-a564-2ded74596359",
+                "resourcePath": "sprites\/s_weed_alt\/s_weed_alt.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "95d448b3-d4aa-4525-9562-b99d5050c09f",
             "Value": {
                 "id": "316337a3-035d-4ee0-816c-d97622b5fe71",
@@ -300,14 +308,6 @@
                 "id": "5758627f-a189-4ec9-bd4b-06ee9635581a",
                 "resourcePath": "sounds\/a_chomp\/a_chomp.yy",
                 "resourceType": "GMSound"
-            }
-        },
-        {
-            "Key": "a52192c4-91f4-4dd2-a355-cedfc3c96100",
-            "Value": {
-                "id": "143c4e23-5fef-4b5a-b31d-44da81d38c5d",
-                "resourcePath": "sprites\/s_grass\/s_grass.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -388,6 +388,14 @@
                 "id": "eec54051-95b8-4f7d-9135-71e40a9b7f1b",
                 "resourcePath": "objects\/o_cow_spawner\/o_cow_spawner.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b31f619b-2e47-41a6-9fdf-a923ed75ac5f",
+            "Value": {
+                "id": "aeef6bef-82f2-4d06-a7e6-b3476068591e",
+                "resourcePath": "sprites\/s_weed_small\/s_weed_small.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
