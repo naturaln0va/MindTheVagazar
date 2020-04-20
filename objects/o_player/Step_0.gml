@@ -51,6 +51,8 @@ switch state {
 			held_obj = hit_obj;
 			held_obj.is_held = true;
 			
+			audio_play_sound(a_pickup, 1, false);
+			
 			state = player_state.carry;
 			instance_deactivate_object(crosshairs);
 		}

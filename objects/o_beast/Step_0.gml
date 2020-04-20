@@ -15,6 +15,8 @@ else {
 	if not cam_obj.zoomed_out {
 		cam_obj.zoomed_out = true;
 		cam_obj.is_zooming = true;
+		
+		audio_play_sound(a_roar, 5, false);
 	}
 	
 	if agro_target == noone {

@@ -17,6 +17,8 @@ with cow {
 	// squish the cow
 	// make the cow run
 	
+	audio_play_sound(a_moo, 1, false);
+	
 	if hp == 0 {
 		// save spawn location for meat
 		var spawn_x = x;

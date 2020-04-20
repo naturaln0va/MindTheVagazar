@@ -11,6 +11,7 @@ if distance <= eat_distance {
 	beast.hunger += saturation;
 	beast.image_speed = 0.5;
 	
+	audio_play_sound(a_chomp, 3, false);
 	instance_destroy();
 }
 else if distance <= suck_distance {
